@@ -1,0 +1,19 @@
+1. ADMIN quyidagilarni amalga oshira oladi:
+    1.1. kitob qo'shish (addBook()) - done ✅
+    1.2. kitob malumotlarini o'zgartirish (editBook()) -done✅
+    1.3. kitob o'chirish (deleteBook()) -done✅
+    1.4. kitoblar ro'yxatini ko'rish (showBookList()) -done✅
+    1.5. foydalanuvchilar ro'yxatini ko'rish (showUserList()) -
+    1.6. savdolar ro'yxatini ko'rish (showSaleList())
+    1.7. parolni o'zgartirish (changePassword()) -done✅
+
+    1.1, 1.2, 1.3, 1.4 -> CRUD -> CREATE, READ, UPDATE, DELETE
+
+2. USER quyidagilarni amalga oshira oladi:
+    2.1. kitob izlash (searchBook()) -🤬
+    2.2. kitoblar ro'yxatini ko'rish (showBookList()) -🤬
+    2.3. kitob sotib olish (buyBook())
+    2.4  o'zining savdolar ro'yxatini ko'rish (showSaleList())
+    2.5. parolni o'zgartirish (changePassword()) -
+    2.6. hisobni to'ldirish (fillBalance())-
+        tugatish
