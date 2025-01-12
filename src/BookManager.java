@@ -80,13 +80,6 @@ public class BookManager {
             Sales sale = sales[i]; // Получаем каждую покупку
             if (sale != null && sale.getUser().equals(Main.user.getId())) {
                 Book purchasedBook = sale.getBook(); // Получаем книгу
-                if (purchasedBook != null) {
-                    System.out.println("Название: " + purchasedBook.getTitle());
-                    System.out.println("Автор: " + purchasedBook.getAuthor());
-                    System.out.println("Дата покупки: " + sale.getDate());
-                    System.out.println("------------------------");
-                    found = true; // Найдена хотя бы одна покупка
-                }
             }
         }
         if (!found) {
